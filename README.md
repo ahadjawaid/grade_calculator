@@ -50,7 +50,7 @@ Copy the config template and paste into config.json
 ```
 Change config data to fit your class's data
 
-## Running programming
+## Running program
 
 | Flag        | Format   | Example  |What it does  |
 | ------------- |:-------------:| -----:| -----:|
