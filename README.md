@@ -5,7 +5,7 @@ Grade calculator takes your grades from the config file and generate your curren
 ## Setup
 Download the files 
 ```shell
-git clone <github download>
+git clone https://github.com/ahadjawaid/grade_calculator.git
 ```
 
 ### Config
