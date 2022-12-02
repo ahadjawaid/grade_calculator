@@ -45,12 +45,3 @@ class Grades:
                 score_needed[letter] = score
 
         return score_needed
-
-# my_grades = Grades(scores, scores_weight, grading_scale)
-
-# current_letter_grade = my_grades.letter_grade
-
-# scores_for_exam_3 = my_grades.letterGradesPossibleForItem("exam", 2)
-
-# for letter in scores_for_exam_3:
-#     print(f"Score of {round(scores_for_exam_3[letter], 2)} to get a {letter}")
