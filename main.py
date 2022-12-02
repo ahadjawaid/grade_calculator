@@ -38,9 +38,10 @@ parser.add_argument('-l', '--get_letter_grade',     # Flag to print current lett
 parser.add_argument('-s', '--score_needed')         # Input item needed Ex: 'exam 3'
 # Get arguments
 args = parser.parse_args()
-class_name = args.class_name.strip()
-get_letter_grade_flag = bool(args.get_letter_grade)
-score_needed_item = args.score_needed.split(" ")
+class_name = args.class_name
+get_letter_grade_flag = args.get_letter_grade
+score_needed_item = args.score_needed
+print(type(get_letter_grade_flag))
 
 # Import config
 config_path = os.path.join(os.getcwd(), "config.json")
@@ -57,6 +58,6 @@ if get_letter_grade_flag:
     print(f"Current letter grade: {user_grades.letter_grade}")
 
 if score_needed_item:
-    item = score_needed_item
+    item = score_needed_item.split(" ")
     item[1] = int(item[1]) - 1
     printScoreNeeded(item)
