@@ -41,7 +41,6 @@ args = parser.parse_args()
 class_name = args.class_name
 get_letter_grade_flag = args.get_letter_grade
 score_needed_item = args.score_needed
-print(type(get_letter_grade_flag))
 
 # Import config
 config_path = os.path.join(os.getcwd(), "config.json")
