@@ -9,7 +9,7 @@ git clone https://github.com/ahadjawaid/grade_calculator.git
 ```
 
 ### Config
-Create config in the ```grade_calculator``` folder directory
+Create config in the ```grade_calculator``` directory
 ```shell
 touch config.json
 ```
